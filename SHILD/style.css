@@ -399,7 +399,6 @@ input[type='search'] {
     font-size: 14px;
     font-weight: 600;
     opacity: 0.5;
-
 }
 .flexible-plan .offers div div p:nth-of-type(2) {
     opacity: 0.5;
@@ -428,17 +427,13 @@ input[type='search'] {
 .flexible-plan .offers > div:nth-of-type(2) {
     background: #0098FF;
 }
-.flexible-plan .offers div:nth-of-type(2) h6 {
+.flexible-plan .offers div:nth-of-type(2) h6,
+.flexible-plan .offers div:nth-of-type(2) h3{
     color: #FFFFFF;
 }
-.flexible-plan .offers div:nth-of-type(2) h3 {
-    color: #FFFFFF;
-}
-.flexible-plan .offers div:nth-of-type(2) div p:nth-of-type(1) {
-    color: #FFFFFF;
-    opacity: 1;
-}
-.flexible-plan .offers div:nth-of-type(2) div p:nth-of-type(2) {
+.flexible-plan .offers div:nth-of-type(2) div p:nth-of-type(1),
+.flexible-plan .offers div:nth-of-type(2) div p:nth-of-type(2)
+{
     color: #FFFFFF;
     opacity: 1;
 }
@@ -467,7 +462,6 @@ input[type='search'] {
     font-weight: 400;
     opacity: 0.5;
 }
-
 .quick-info div h6{
     height: 18px;
     width: 102px;
